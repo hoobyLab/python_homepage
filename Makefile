@@ -1,7 +1,7 @@
 .PHONY: all lint clean build run kill help
 
 # Configuration
-PORT ?= 5000
+PORT ?= 6006
 
 all: lint build run
 
