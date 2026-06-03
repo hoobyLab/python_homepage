@@ -1,4 +1,4 @@
-# Deployment Guide for MaggotCorp Homepage to PythonAnywhere
+# Deployment Guide for hoobyLab Homepage to PythonAnywhere
 
 ## Prerequisites
 - A PythonAnywhere account (free tier should suffice for basic use).
@@ -15,11 +15,11 @@
    - Click "Add a new web app".
    - Select "Flask" as the framework.
    - Choose Python 3.10 or compatible version.
-   - Set the project path, e.g., `/home/yourusername/maggotcorp-homepage/src/app.py`.
+   - Set the project path, e.g., `/home/yourusername/hoobyLab-homepage/src/app.py`.
 
 3. **Upload Code**:
    - Use the "Files" tab to upload your project files, or clone from Git:
-     - In a Bash console: `git clone http://mofo-jackson:6009/maggotcorp/homepage.git`.
+     - In a Bash console: `git clone http://mofo-jackson:6009/hoobyLab/homepage.git`.
    - Ensure the working directory matches your setup.
 
 4. **Configure WSGI**:
@@ -28,7 +28,7 @@
 
 5. **Static Files**:
    - In "Static files" section:
-     - URL: `/static/`, Directory: `/home/yourusername/maggotcorp-homepage/src/static`.
+     - URL: `/static/`, Directory: `/home/yourusername/hoobyLab-homepage/src/static`.
 
 6. **Install Dependencies**:
    - In a Bash console: `pip install --user -r requirements.txt`.

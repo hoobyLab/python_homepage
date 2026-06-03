@@ -1,8 +1,8 @@
-# Privacy Policy for MaggotCorp Homepage
+# Privacy Policy for hoobyLab Homepage
 
 ## Introduction
 
-MaggotCorp values your privacy. This Privacy Policy explains how we collect, use, and protect your information when you visit our homepage.
+hoobyLab values your privacy. This Privacy Policy explains how we collect, use, and protect your information when you visit our homepage.
 
 ## Information We Collect
 
@@ -28,4 +28,4 @@ We may update this policy periodically. Check this page for changes.
 
 ## Contact
 
-For questions, contact privacy@maggotcorp.com.
+For questions, contact privacy@hoobyLab.com.

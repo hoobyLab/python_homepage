@@ -5,10 +5,10 @@ import os
 
 # Try multiple possible project locations
 possible_paths = [
-    '/home/maggotcorp/maggotcorp-homepage/src',
-    '/home/maggotcorp/python_homepage/src',
-    '/home/maggotcorp/homepage/src',
-    '/home/maggotcorp/src',
+    '/home/hoobyLab/hoobyLab-homepage/src',
+    '/home/hoobyLab/python_homepage/src',
+    '/home/hoobyLab/homepage/src',
+    '/home/hoobyLab/src',
 ]
 
 for path in possible_paths:
