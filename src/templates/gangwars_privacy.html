@@ -8,52 +8,66 @@
 </head>
 <body>
     <div class="container document-content">
-    <h1>Privacy Policy for Gangwars</h1>
-    <p><strong>Effective Date:</strong> March 26, 2026</p>
-    <h2>Introduction</h2>
-    <p>Gangwars ("we", "our", "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our mobile application.</p>
-    <h2>Information We Collect</h2>
-    <h3>1. Personal Information</h3>
-    <p>We do not collect any personal information that can identify you individually.</p>
-    <h3>2. App Usage Data</h3>
-    <ul>
-        <li><strong>Game Progress</strong>: Local storage of game saves and achievements.</li>
-        <li><strong>App Preferences</strong>: User settings for game options.</li>
-        <li><strong>Usage Analytics</strong>: Basic usage patterns to improve app performance.</li>
-    </ul>
-    <h3>3. Permissions</h3>
-    <p>The app may require permissions for:</p>
-    <ul>
-        <li>Storage for saving game data</li>
-        <li>No data is transmitted off-device</li>
-    </ul>
-    <h2>How We Use Your Information</h2>
-    <p>We use the collected information solely to:</p>
-    <ul>
-        <li>Provide game functionality</li>
-        <li>Maintain user preferences</li>
-        <li>Improve app performance</li>
-    </ul>
-    <p>All data remains on your device.</p>
-    <h2>Data Storage and Security</h2>
-    <ul>
-        <li>All data is stored locally on your device</li>
-        <li>No information is transmitted to external servers</li>
-        <li>We implement security measures to protect your data</li>
-    </ul>
-    <h2>Third-Party Services</h2>
-    <ul>
-        <li>No third-party analytics</li>
-        <li>No data sharing</li>
-        <li>No advertising</li>
-    </ul>
-    <h2>Children's Privacy</h2>
-    <p>Our app does not collect information from children under 13.</p>
-    <h2>Changes to This Privacy Policy</h2>
-    <p>We may update this policy. Changes will be posted here.</p>
-    <h2>Contact Us</h2>
-    <p>For questions: privacy@gangwars.app</p>
+        <h1>Privacy Policy for Gangwars</h1>
+        <p><strong>Effective Date:</strong> March 26, 2026</p>
+
+        <h2>Introduction</h2>
+        <p>Gangwars ("we", "our", "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you play our cross-platform text-based role-playing game. Gangwars is a local-first game: all gameplay data, save files, and preferences remain on your device.</p>
+
+        <h2>Information We Collect</h2>
+        <h3>1. Personal Information</h3>
+        <p>We do not collect any personal information that can identify you individually. There are no required accounts or sign-ins to play.</p>
+
+        <h3>2. Gameplay Data (Local Only)</h3>
+        <p>To provide the gameplay experience, Gangwars stores the following information on your device:</p>
+        <ul>
+            <li><strong>Game Progress</strong>: Local saves for player name, gang name, money, weapons, inventory, gang members, day count, and high scores.</li>
+            <li><strong>App Preferences</strong>: User settings for game options, sound, and display.</li>
+            <li><strong>Usage Analytics</strong>: Basic usage patterns to improve app performance.</li>
+        </ul>
+
+        <h3>3. Real-time Multiplayer Chat</h3>
+        <p>If you use the in-game global chat, messages are routed through a real-time WebSocket (Socket.IO) connection so other players in the same location-based chat room can see them. <strong>Chat messages are not archived on our servers</strong>; they are transient and exist only for the duration of the active session.</p>
+
+        <h3>4. Permissions</h3>
+        <p>The app may request the following permissions:</p>
+        <ul>
+            <li><strong>Storage</strong>: For saving game progress, configuration, and high scores.</li>
+            <li><strong>Network Access</strong>: Required only for the optional real-time chat and leaderboard features.</li>
+        </ul>
+
+        <h2>How We Use Your Information</h2>
+        <p>All data processed by Gangwars is used solely to:</p>
+        <ul>
+            <li>Provide core gameplay (combat, drug economy, gang management, banking, and exploration).</li>
+            <li>Save and restore your in-game progress.</li>
+            <li>Maintain user preferences and high-score leaderboards.</li>
+            <li>Route optional real-time chat messages between players.</li>
+        </ul>
+
+        <h2>Data Storage and Security</h2>
+        <ul>
+            <li>Game saves and preferences are stored locally on your device.</li>
+            <li>Chat messages are transient and are not stored on our servers.</li>
+            <li>No telemetry, advertising IDs, or device fingerprinting is collected.</li>
+        </ul>
+
+        <h2>Third-Party Services</h2>
+        <ul>
+            <li>No third-party analytics.</li>
+            <li>No advertising or tracking SDKs.</li>
+            <li>The Socket.IO client library is loaded from the cdnjs.cloudflare.com CDN to enable optional real-time chat; no personal data is sent to that CDN.</li>
+        </ul>
+
+        <h2>Children's Privacy</h2>
+        <p>Gangwars contains mature themes (extreme violence, drug use, criminal activity) and is not intended for children. We do not knowingly collect information from children under 13.</p>
+
+        <h2>Changes to This Privacy Policy</h2>
+        <p>We may update this policy. Changes will be posted in this document within the application.</p>
+
+        <h2>Contact Us</h2>
+        <p>For questions, please contact: <strong>timotheuzi@hotmail.com</strong></p>
     </div>
-<div style="padding: 20px; text-align: left;"><a href="/{{ project }}" style="color: #007bff; text-decoration: none; font-weight: bold; font-size: 1.2em;">&larr; Back to {{ project_name }} Product Page</a></div>
+    <div style="padding: 20px; text-align: left;"><a href="/{{ project }}" style="color: #007bff; text-decoration: none; font-weight: bold; font-size: 1.2em;">&larr; Back to {{ project_name }} Product Page</a></div>
 </body>
 </html>

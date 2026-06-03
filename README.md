@@ -13,4 +13,4 @@ Python-based web application serving as the homepage for hoobyLab, a computer so
 
 ## License
 
-MIT License
+This project is licensed under the [MIT License](LICENSE.md).

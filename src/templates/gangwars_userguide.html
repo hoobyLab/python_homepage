@@ -3,77 +3,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gangwar User Guide</title>
+    <title>Gangwars User Guide</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
     <div class="container document-content">
-    <h1>Gangwar User Guide 🎮</h1>
-    <p>Welcome to the streets. This guide will help you navigate the dangerous world of Gangwar and build your criminal empire.</p>
-    <h2>🏁 Objective</h2>
-    <p>The goal is simple: <strong>Survive and Dominate</strong>. Accumulate wealth, grow your gang, and eventually take down the legendary Squidie Army to prove you're the king of the streets.</p>
-    <h2>📍 Key Locations</h2>
-    <h3>🏙️ City (Main Hub)</h3>
-    <p>This is your primary navigation screen. From here, you can access all other locations in the city. Keep an eye on the top bar for your current status (Health, Cash, and Day).</p>
-    <h3>🏚️ Crackhouse</h3>
-    <p>The heart of your economy.</p>
-    <ul>
-        <li><strong>Buy/Sell</strong>: Trade in various substances. Prices fluctuate daily.</li>
-        <li><strong>Strategy</strong>: Buy low in one area or day, and sell high when the market peaks.</li>
-    </ul>
-    <h3>🔫 Gun Shack</h3>
-    <p>Your source for protection and firepower.</p>
-    <ul>
-        <li><strong>Arsenal</strong>: Buy handguns, submachine guns, and explosives.</li>
-        <li><strong>Ammo</strong>: Don't forget to stock up; a gun without bullets is just a paperweight.</li>
-        <li><strong>Armor</strong>: Essential for surviving late-game gang wars.</li>
-    </ul>
-    <h3>🏦 Bank</h3>
-    <p>Safe-keep your hard-earned cash.</p>
-    <ul>
-        <li><strong>Deposit</strong>: Protect your money from being stolen if you lose a fight.</li>
-        <li><strong>Loans</strong>: Need quick cash for a big deal? Take a loan, but watch the interest!</li>
-    </ul>
-    <h3>🍺 The Bar</h3>
-    <p>The place for rumors and recruitment.</p>
-    <ul>
-        <li><strong>Recruit</strong>: Find new members to join your gang. Larger gangs deal more damage and can carry more loot.</li>
-        <li><strong>Intel</strong>: Talk to the regulars to find out where the best deals or biggest threats are.</li>
-    </ul>
-    <h3>🏪 Pick n Save</h3>
-    <p>General supplies and gang management.</p>
-    <ul>
-        <li><strong>Supplies</strong>: Buy items that help with travel or health.</li>
-        <li><strong>Management</strong>: View your gang's detailed stats and equipment.</li>
-    </ul>
-    <h2>⚔️ Combat & Survival</h2>
-    <h3>Gang Wars</h3>
-    <p>Randomly, or when provoked, you will enter combat with rival gangs.</p>
-    <ul>
-        <li><strong>Attack</strong>: Use your equipped weapons.</li>
-        <li><strong>Defend</strong>: Your armor and gang size determine how much damage you can soak up.</li>
-        <li><strong>Run</strong>: Sometimes survival is better than pride. Attempt to flee if the odds are against you.</li>
-    </ul>
-    <h3>Health & Death</h3>
-    <ul>
-        <li>If your health reaches <strong>0</strong>, it's game over.</li>
-        <li>Visit the <strong>Infobooth</strong> or use supplies from <strong>Pick n Save</strong> to heal.</li>
-    </ul>
-    <h2>📈 Tips for Success</h2>
-    <ol>
-        <li><strong>Bank Your Cash</strong>: Never carry more money than you can afford to lose. If you're "wasted" on the streets, rivals will take your pocket cash.</li>
-        <li><strong>Grow Your Gang</strong>: More members mean more "mules" to carry drugs and more "soldiers" in a fight.</li>
-        <li><strong>Watch the Clock</strong>: You only have a limited number of days to make your mark. Make every move count.</li>
-        <li><strong>Upgrade Early</strong>: A basic pistol is better than nothing, but you'll want an Uzi or better before the first week is out.</li>
-    </ol>
-    <h2>🛠️ Controls</h2>
-    <ul>
-        <li><strong>Tap</strong>: Select locations, buy items, or confirm actions.</li>
-        <li><strong>Scroll</strong>: Navigate through long lists of inventory or drug types.</li>
-        <li><strong>Back Button</strong>: Returns you to the City Hub from any location.</li>
-    </ul>
-    <p><strong>Good luck. You're going to need it.</strong> 💰🔫🏙️</p>
+        <h1>Gang War: Blood in the Streets &mdash; User Guide</h1>
+        <p>Welcome to the streets. This guide will help you navigate the dangerous world of Gang War and build your criminal empire. The goal is simple: <strong>Survive and Dominate</strong>. Accumulate wealth, grow your gang, and eventually take down the legendary Squidies to prove you're the king of the streets.</p>
+
+        <h2>Table of Contents</h2>
+        <ol>
+            <li><a href="#getting-started">Getting Started</a></li>
+            <li><a href="#core-gameplay">Core Gameplay Loop</a></li>
+            <li><a href="#locations">Locations</a></li>
+            <li><a href="#combat">Combat System</a></li>
+            <li><a href="#winning">Winning & Losing</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#installation">Installation & Running</a></li>
+            <li><a href="#chat">Chat System</a></li>
+            <li><a href="#content-warning">Content Warning</a></li>
+        </ol>
+
+        <h2 id="getting-started">1. Getting Started</h2>
+        <ol>
+            <li>Launch the game and create a new character.</li>
+            <li>Choose your player name and gang name.</li>
+            <li>Begin in the city with $1000, a pistol, 10 bullets, and basic equipment.</li>
+        </ol>
+
+        <h2 id="core-gameplay">2. Core Gameplay Loop</h2>
+        <ul>
+            <li><strong>Explore Locations</strong>: Move between different areas of the city.</li>
+            <li><strong>Deal Drugs</strong>: Buy low, sell high, and expand your criminal network.</li>
+            <li><strong>Recruit Members</strong>: Grow your gang through successful operations and intimidation.</li>
+            <li><strong>Combat</strong>: Fight rival gangs, police, and other threats in turn-based battles.</li>
+            <li><strong>Manage Resources</strong>: Balance money, weapons, health, and gang morale.</li>
+            <li><strong>Wander Streets</strong>: Encounter random events, police chases, and opportunities.</li>
+        </ul>
+
+        <h2 id="locations">3. Locations</h2>
+        <h3>City Hub</h3>
+        <p>Central navigation point with daily drug price alerts. From here, you can access all other locations in the city.</p>
+        <h3>Crackhouse</h3>
+        <p>Buy/sell drugs and engage in risky encounters. Prices fluctuate daily &mdash; buy low in one area or day, and sell high when the market peaks.</p>
+        <h3>Gun Shack</h3>
+        <p>Purchase weapons, ammunition, and upgrades. Don't forget to stock up on ammo; a gun without bullets is just a paperweight. Body armor is essential for surviving late-game gang wars.</p>
+        <h3>Bank</h3>
+        <p>Deposit money for interest or manage savings. Need quick cash for a big deal? Take a loan, but watch the interest!</p>
+        <h3>Bar</h3>
+        <p>Gather information and meet shady contacts. Recruit new members and find out where the best deals or biggest threats are.</p>
+        <h3>Alleyway</h3>
+        <p>Explore dark alleys with multiple interconnected rooms for hidden opportunities and dangers. Look for hidden treasures, traps, and rare encounters.</p>
+        <h3>Pick n' Save</h3>
+        <p>Buy supplies, fake IDs, information, and recruit new members. Manage your gang's detailed stats and equipment here.</p>
+        <h3>Prostitutes</h3>
+        <p>Get services, reduce stress, and recruit new gang members.</p>
+
+        <h2 id="combat">4. Combat System</h2>
+        <p>Fight using various weapons in turn-based MUD-style combat with detailed battle descriptions:</p>
+        <ul>
+            <li><strong>Pistols and Bullets</strong>: Basic firearms with automatic upgrade options.</li>
+            <li><strong>AR-15</strong>: Assault rifle for high damage.</li>
+            <li><strong>Ghost Guns</strong>: Untraceable weapons with jamming risk.</li>
+            <li><strong>Grenades</strong>: Area damage explosives.</li>
+            <li><strong>Missile Launchers</strong>: Massive destructive power.</li>
+            <li><strong>Vampire Bats</strong>: Melee weapon with multi-strike capability.</li>
+            <li><strong>Knives</strong>: Fast multi-stab attacks.</li>
+            <li><strong>Special Weapons</strong>: Sword, axe, golden gun, poison blowgun (dropped by NPCs).</li>
+            <li><strong>Special Ammunition</strong>: Exploding bullets and hollow point bullets for enhanced damage.</li>
+            <li><strong>Body Armor</strong>: Various vests for damage reduction.</li>
+            <li><strong>Gang Members</strong>: Your recruited members fight alongside you.</li>
+            <li><strong>Drug Usage</strong>: Use drugs during combat for various effects.</li>
+        </ul>
+        <p>Enemies include police, rival gang members, NPCs, and the deadly Squidies gang. Combat features collateral damage where gang members can die, and detailed grim descriptions of violence.</p>
+
+        <h2 id="winning">5. Winning & Losing</h2>
+        <h3>Winning</h3>
+        <p>Build your gang to 10+ members, gather intelligence, and launch a final assault on the Squidies' headquarters. Survive long enough to become the ultimate gang lord of the city.</p>
+        <h3>Losing</h3>
+        <p>Die in combat, get arrested, or run out of lives. The streets are unforgiving.</p>
+
+        <h2 id="features">6. Features</h2>
+        <ul>
+            <li><strong>Dynamic Economy</strong>: Fluctuating drug prices with daily market alerts and busts/flooded markets.</li>
+            <li><strong>Real-time Multiplayer Chat</strong>: Global chat system with player lists and location-based rooms.</li>
+            <li><strong>PVP Framework</strong>: Player vs player challenge system.</li>
+            <li><strong>High Score Tracking</strong>: Persistent leaderboard with money earned, days survived, and achievements.</li>
+            <li><strong>Extensive Combat System</strong>: Multiple weapons, special ammo, body armor, and tactical combat.</li>
+            <li><strong>NPC Interactions</strong>: Talk to, trade with, and fight non-player characters with unique loot drops.</li>
+            <li><strong>Alleyway Exploration</strong>: Multi-room dungeon-like exploration with hidden treasures and traps.</li>
+            <li><strong>Gang Management</strong>: Recruit and manage gang members who participate in combat.</li>
+            <li><strong>Banking System</strong>: Deposit money for interest and manage savings accounts.</li>
+            <li><strong>Fake ID System</strong>: Protection from police encounters and enhanced street operations.</li>
+            <li><strong>Information Gathering</strong>: Intelligence system for police awareness and strategic advantages.</li>
+            <li><strong>Drug Usage in Combat</strong>: Various drugs provide different combat effects.</li>
+            <li><strong>Day/Night Cycle</strong>: Time progression with step limits and daily price fluctuations.</li>
+            <li><strong>Random Encounters</strong>: Police chases, baby momma incidents, gang fights, and Squidie hit squads.</li>
+            <li><strong>Collateral Damage</strong>: Realistic combat where gang members can die in battle.</li>
+        </ul>
+
+        <h2 id="installation">7. Installation & Running</h2>
+        <h3>Local Development</h3>
+        <ol>
+            <li>Install dependencies: <code>pip install -r requirements.txt</code></li>
+            <li>Run the game using one of these options:
+                <ul>
+                    <li><strong>Standard Flask</strong>: <code>python src/app.py --port 6009</code></li>
+                    <li><strong>PythonAnywhere deployment</strong>: <code>python pythonanywhere_entry.py</code></li>
+                </ul>
+            </li>
+            <li>Open your browser to <code>http://localhost:6009</code></li>
+        </ol>
+        <h3>PythonAnywhere Deployment</h3>
+        <ol>
+            <li>Upload files to PythonAnywhere.</li>
+            <li>Set up a virtual environment and install requirements.</li>
+            <li>Configure the WSGI file to point to <code>pythonanywhere_entry.py</code>.</li>
+            <li>The app will run on the PythonAnywhere domain.</li>
+        </ol>
+
+        <h2 id="chat">8. Chat System</h2>
+        <p>The real-time chat system requires:</p>
+        <ul>
+            <li>Flask-SocketIO installed (<code>pip install flask-socketio</code>).</li>
+            <li>Browser must allow WebSocket connections.</li>
+            <li>Socket.IO client library is loaded from CDN (cdnjs.cloudflare.com).</li>
+        </ul>
+        <p>If chat doesn't connect, check:</p>
+        <ol>
+            <li>Browser console for connection errors (F12).</li>
+            <li>Server console for "SocketIO initialized" message.</li>
+            <li>Ensure port 6009 is accessible.</li>
+        </ol>
+
+        <h2 id="content-warning">9. Content Warning</h2>
+        <p>This game contains extreme violence, gore, drug use, criminal activity, and mature themes. All depictions are fictional and for entertainment purposes only.</p>
+
+        <hr>
+        <p><em>Good luck. You're going to need it.</em> 💰🔫🏙️</p>
     </div>
-<div style="padding: 20px; text-align: left;"><a href="/{{ project }}" style="color: #007bff; text-decoration: none; font-weight: bold; font-size: 1.2em;">&larr; Back to {{ project_name }} Product Page</a></div>
+    <div style="padding: 20px; text-align: left;"><a href="/{{ project }}" style="color: #007bff; text-decoration: none; font-weight: bold; font-size: 1.2em;">&larr; Back to {{ project_name }} Product Page</a></div>
 </body>
 </html>

@@ -8,25 +8,46 @@
 </head>
 <body>
     <div class="container document-content">
-    <h1>Dumb Phone</h1>
-    <p>A comprehensive network security application for Android and iOS that provides real-time protection against threats, monitoring network traffic, and blocking malicious connections through two distinct firewall modes.</p>
-    <h2>Features</h2>
-    <ul>
-        <li><strong>Dumb Phone Mode</strong>: High-security mode that blocks all non-essential traffic by default, allowing only voice and text-related communications.</li>
-        <li><strong>Soft Firewall Mode</strong>: Intelligent monitoring and blocking based on customizable rules and threat intelligence.</li>
-        <li><strong>Country Blacklisting</strong>: Block all traffic to/from specific countries known for high cyber-threat activity.</li>
-        <li><strong>Real-time Logging</strong>: Monitor all allowed and blocked connections with detailed packet information.</li>
-        <li><strong>Process Monitoring</strong>: View running processes and their associated network activity.</li>
-        <li><strong>Custom Rules</strong>: Create your own IP, port, or protocol-based firewall rules.</li>
-        <li><strong>Threat Intelligence</strong>: Pre-loaded database of high-risk countries and IP ranges.</li>
-        <li><strong>Log Retention</strong>: Configurable log retention with automatic cleanup.</li>
-    </ul>
-    <h2>Privacy</h2>
-    <p>All processing and logging happen locally on your device. Your network traffic data is never sent to external servers.</p>
-    <a href="LICENSE">LICENSE</a> file for details.</p>
-    <!--<h2>Support</h2>
-    <p>For issues and feature requests, please open an issue on the project repository.</p>
-    </div> -->
-<div style="padding: 20px; text-align: left;"><a href="/{{ project }}" style="color: #007bff; text-decoration: none; font-weight: bold; font-size: 1.2em;">&larr; Back to {{ project_name }} Product Page</a></div>
+        <h1>Dumb Phone</h1>
+        <p>A comprehensive network security application for Android that provides real-time protection against threats, monitoring network traffic, and blocking malicious connections through two distinct firewall modes. All processing and logging happen locally on your device; your network traffic data is never sent to external servers.</p>
+
+        <h2>Overview</h2>
+        <p>Dumb Phone leverages the Android VPN Service API to intercept, analyze, and filter all outgoing and incoming packets, giving you complete control over your device's network footprint.</p>
+
+        <h2>Core Features</h2>
+
+        <h3>🛡️ Dual-Mode Firewall</h3>
+        <ul>
+            <li><strong>Dumb Phone Mode</strong>: Our most restrictive security profile. It operates on a "Block All by Default" policy, automatically permitting only essential traffic for Voice over IP (VoIP) and text messaging (SIP, SMTP/IMAP).</li>
+            <li><strong>Soft Firewall Mode</strong>: An intelligent monitoring layer that allows traffic by default while filtering it against customizable rules and threat intelligence.</li>
+        </ul>
+
+        <h3>🌍 Global Traffic Control</h3>
+        <ul>
+            <li><strong>Country Blacklisting</strong>: Instantly block all communication to and from specific countries. The application utilizes a pre-loaded database of global IP ranges to provide geographical fencing.</li>
+            <li><strong>Custom Rules Engine</strong>: Define your own granular security policies based on IP addresses, ports, or protocols.</li>
+        </ul>
+
+        <h3>📊 Real-time Analysis</h3>
+        <ul>
+            <li><strong>Connection Logging</strong>: A detailed, searchable history of every network event. Blocked and allowed connections are clearly categorized with destination metadata and timestamps.</li>
+            <li><strong>Process Monitoring</strong>: Direct visibility into which running processes are attempting to access the network.</li>
+        </ul>
+
+        <h2>Privacy & Security</h2>
+        <p>Dumb Phone is built with a "Privacy First" architecture:</p>
+        <ul>
+            <li><strong>Local Processing</strong>: All packet inspection and filtering logic occurs on-device.</li>
+            <li><strong>Zero Data Export</strong>: Your network logs and activity data remain strictly within your device's secure storage.</li>
+            <li><strong>No External Dependencies</strong>: The application does not rely on cloud-based analysis, ensuring protection even in isolated environments.</li>
+        </ul>
+
+        <h2>License</h2>
+        <p>Please see the <a href="/{{ project }}/license">LICENSE</a> file for details.</p>
+
+        <hr>
+        <p><em>Classification: Confidential</em></p>
+    </div>
+    <div style="padding: 20px; text-align: left;"><a href="/{{ project }}" style="color: #007bff; text-decoration: none; font-weight: bold; font-size: 1.2em;">&larr; Back to {{ project_name }} Product Page</a></div>
 </body>
 </html>

@@ -29,3 +29,7 @@ We may update this policy periodically. Check this page for changes.
 ## Contact
 
 For questions, contact privacy@hoobyLab.com.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE.md).

@@ -23,3 +23,7 @@ This guide provides instructions on how to use and navigate the hoobyLab homepag
 ## Contact
 
 For support, contact hoobyLab support team.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE.md).
